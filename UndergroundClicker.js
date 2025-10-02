@@ -15,11 +15,6 @@ function switchSFX() {
 }
 
 var clicks = 0
-
-function onClick() {
-  clicks += 1;
-  document.getElementById("clickcount").innerHTML = clicks;
-};
 var currentImage = "MALIK";
 var currentSound = "CartiSound";
 
